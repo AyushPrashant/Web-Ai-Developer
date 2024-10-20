@@ -4,13 +4,13 @@ const SectionPage = () => {
     return (
         <div className='bg-[#F1F5F9] relative'>
             {/* Main heading */}
-            <div className='pt-[100px] max-w-[920px] w-full mx-auto text-center font-manage font-bold text-[30px] sm:text-[42px] leading-[35px] sm:leading-[51.71px] px-6 sm:px-4'>
+            <div className='pt-[100px] max-w-[940px] w-full mx-auto text-center font-manage font-bold text-[30px] sm:text-[42px] leading-[35px] sm:leading-[51.71px] px-6 sm:px-4'>
                 <span className='text-[#090922]'>Over 83,000 Forexxy  traders worldwide trust Forexxy -Tradie.com - </span>
                 <span className='text-[#D91222]'> now it's your turn</span>
             </div>
 
             {/* Content section */}
-            <div className='mt-[80px] md:mt-[180px] max-w-[1273px] w-full mx-auto flex flex-col md:flex-row px-4 gap-8 md:gap-4'>
+            <div className='mt-[80px] md:mt-[80px] max-w-[1273px] w-full mx-auto flex flex-col md:flex-row px-4 gap-8 md:gap-4'>
                 
                 {/* Box 1 */}
                 <div className="box1 w-full md:w-[600px]">

@@ -44,13 +44,13 @@ const LoginPage = ({ isOpen, onClose }) => {
                         <button 
                             onClick={() => setSignInOpen(true)} 
                             type="button" 
-                            className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center shadow-lg shadow-[#7B68EE]"
+                            className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center shadow-md shadow-[#7B68EE]"
                         >
                             Log In
                         </button>
                     </div>
                 </div>
-                <div className='absolute bottom-0 left-0'><img src="LoginBg.svg" alt="Background" className="hidden md:block" /></div>
+                <div className='absolute bottom-1 left-0 -mr-[1px] -mb-[3.89px]'><img src="LoginBg.svg" alt="Background" className="hidden md:block" /></div>
 
                 {/* Sign In Modal */}
                 {isSignInOpen && <SignIn isOpen={isSignInOpen} onClose={() => setSignInOpen(false)} />}

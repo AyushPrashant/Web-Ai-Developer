@@ -3,7 +3,7 @@ import React from 'react';
 const Overwhelmade = () => {
     return (
         <>
-            <div className=' mt-16 md:mt-10 w-full max-w-[1216px] px-3 sm:px-0 h-auto mx-auto flex flex-col lg:flex-row gap-10'>
+            <div className=' mt-0 md:mt-10 w-full max-w-[1216px] px-3 sm:px-0 h-auto mx-auto flex flex-col lg:flex-row gap-10'>
                 {/* Left Section */}
                 <div className='box1 w-full lg:w-[574.47px] h-auto pt-5 md:pt-20'>
                     <div className='w-[95%] mx-auto lg:w-[574.47px] h-auto'>

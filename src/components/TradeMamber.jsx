@@ -3,7 +3,7 @@ import React from 'react'
 const TradeMamber = () => {
     return (
         <>
-            <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-[1216px] h-auto mx-auto mb-20 p-4">
+            <div className="flex flex-col md:flex-row items-center justify-center w-full max-w-[1216px] h-auto mx-auto mb-0 lg:mb-10 p-4">
                 <div className="md:w-1/2 p-6">
                     <h1 className="font-manage text-[#061C3D] text-[36px] sm:text-[44px] md:text-[51.59px] font-bold leading-tight md:leading-[55.27px] tracking-[0.005em] text-left mb-4">
                         We have members from every corner of the globe

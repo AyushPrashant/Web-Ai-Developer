@@ -3,7 +3,7 @@ import React from 'react'
 const CostumerRating = () => {
     return (
         <>
-            <div className="text-center p-8 mb-20">
+            <div className="text-center p-8 mb-0 lg:mb-10">
                 <h1 className="text-[32px] font-manage md:text-[40px] lg:text-[48px] font-bold leading-tight lg:leading-[62.4px] text-center text-[#293241]">
                     Customers have consistently rated
                 </h1>

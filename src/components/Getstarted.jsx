@@ -31,10 +31,10 @@ const Getstarted = () => {
     return (
         <>
             <NavbarAll />
-            <div className='relative h-[1300px] sm:h-[1015px] lg:h-auto mb-16 md:mb-32'>
+            <div className='relative h-[1300px] sm:h-[1100px] lg:h-[1015px] mb-16 md:mb-12'>
                 <img src="Getstarted.svg" alt="" className='w-full h-auto' />
-                <div className='absolute top-0 w-full max-w-6xl mx-auto lg:ml-10'>
-                    <div className="flex flex-col items-center justify-center min-h-screen p-0">
+                <div className="flex flex-col items-center justify-center h-auto p-0">
+                    <div className='absolute top-16 w-full max-w-6xl mx-auto '>
                         <div className="flex flex-col md:flex-row items-center justify-between w-full p-0">
                             <div className="md:w-1/2 p-6">
                                 <h1 className="font-bold text-left text-[#212326] font-manage text-[36px] lg:text-[55px] leading-[48px] md:text-[50px] md:leading-[51.33px] lg:leading-[84.31px]">
@@ -121,34 +121,34 @@ const Getstarted = () => {
                     </div>
                 </div>
             </div>
-            <GetstartedLeft  imageSrc="GetstartedQuatox.svg" stepnumber="1" title="Create a" subtitle="Quotex Account" signupLink="#" steps1='Create a Quotex Account with our link.' steps2='Fill in the required details, including your name, email address, and a strong password.' steps3='Agree to the terms of service and privacy policy, then click "Create Account."'/>
+            <GetstartedLeft imageSrc="GetstartedQuatox.svg" stepnumber="1" title="Create a" subtitle="Quotex Account" signupLink="#" steps1='Create a Quotex Account with our link.' steps2='Fill in the required details, including your name, email address, and a strong password.' steps3='Agree to the terms of service and privacy policy, then click "Create Account."' />
 
-             <GetstartedRight
-            title="Obtain Your Trader ID"
-            step1="Once your Quotex account is created, you will receive a unique Trader ID."
-            step2="Make sure to save your Trader ID as you will need it for the next step."
-            imageSrc="GetstartedRightImg.svg"/>
-<div className='relative'>
-            <GetstartedLeft  imageSrc="GetstartedQuatox2.svg" stepnumber="2" title="Create an" subtitle="Account with Forexxy -Tradie" signupLink="#" steps1='Create account with Forexxy -tradie ' steps2='Enter your personal details, including your name, email address, and a strong password.' steps3='Enter your personal details, including your name, email address, and a strong password.'/>
+            <GetstartedRight
+                title="Obtain Your Trader ID"
+                step1="Once your Quotex account is created, you will receive a unique Trader ID."
+                step2="Make sure to save your Trader ID as you will need it for the next step."
+                imageSrc="GetstartedRightImg.svg" />
+            <div className='relative'>
+                <GetstartedLeft imageSrc="GetstartedQuatox2.svg" stepnumber="2" title="Create an" subtitle="Account with Forexxy -Tradie" signupLink="#" steps1='Create account with Forexxy -tradie ' steps2='Enter your personal details, including your name, email address, and a strong password.' steps3='Enter your personal details, including your name, email address, and a strong password.' />
 
-             <GetstartedRight
-            title="Verification Process"
-            step1="Once you submit your details, Forexxy -Tradie will verify your Trader ID."
-            step2="Upon successful verification, you will receive your Forexxy -Tradie login credentials via email and SMS."
-            imageSrc="GetstartedRightImg2.svg"/>
-            <div className='absolute top-1'>
-            <img src="GetstartedPropes.svg" alt="" />
+                <GetstartedRight
+                    title="Verification Process"
+                    step1="Once you submit your details, Forexxy -Tradie will verify your Trader ID."
+                    step2="Upon successful verification, you will receive your Forexxy -Tradie login credentials via email and SMS."
+                    imageSrc="GetstartedRightImg2.svg" />
+                <div className='absolute top-1 lg:right-0'>
+                    <img className='lg:w-[1500px]' src="GetstartedPropes.svg" alt="" />
+                </div>
             </div>
-</div>
-            <GetstartedLeft  imageSrc="GetstartedQuatox3.svg" stepnumber="3" title="Log In and" subtitle="Start Using Our Services" signupLink="#" steps1='Use the credentials you received from Forexxy -Tradie to log in to TradeSmart.' steps2='Navigate to the login page and enter your email address and password.' steps3='Agree to the terms of service and privacy policy, then click "Create Account."'/>
+            <GetstartedLeft imageSrc="GetstartedQuatox3.svg" stepnumber="3" title="Log In and" subtitle="Start Using Our Services" signupLink="#" steps1='Use the credentials you received from Forexxy -Tradie to log in to TradeSmart.' steps2='Navigate to the login page and enter your email address and password.' steps3='Agree to the terms of service and privacy policy, then click "Create Account."' />
 
-             <GetstartedRight
-            title="Explore the Platform"
-            step1="Once logged in, take a moment to explore our comprehensive trading tools and resources."
-            step2="Customize your dashboard, access real-time market data, and start placing trades."
-            imageSrc="GetstartedRight3.svg"/>
-            <GetStartedLast/>
-            <Footer/>
+            <GetstartedRight
+                title="Explore the Platform"
+                step1="Once logged in, take a moment to explore our comprehensive trading tools and resources."
+                step2="Customize your dashboard, access real-time market data, and start placing trades."
+                imageSrc="GetstartedRight3.svg" />
+            <GetStartedLast />
+            <Footer />
         </>
     );
 };

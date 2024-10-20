@@ -3,12 +3,12 @@ import React from 'react'
 const TradeUser = () => {
     return (
         <>
-            <div className="relative mb-[700px]">
+            <div className="relative mb-[400px]">
                 {/* Blue image as background with margin-bottom */}
                 <img
                     src="TradeBlue.svg"
                     alt="Blue Background"
-                    className="absolute top-10 left-0 w-full h-auto mb-4 "
+                    className="absolute top-10 left-0 w-full h-[1100px] mb-4"
                 />
 
                 {/* Last image underneath the blue image */}
@@ -39,10 +39,10 @@ const TradeUser = () => {
                             </div>
                         </div>
                     </div>
-                        <div className="flex justify-center font-bold text-[16px] sm:text-[32px] p-14 leading-7 sm:leading-[54.94px] mt-20 text-black items-start lg:items-center h-screen z-20">
-                            <div>
-                       <span className='text-[#D91222]'>Contact Us:</span> Have any questions or need assistance? <a href="#" className='underline text-[#3EBA59]'>Contact our support</a> team and we'll be happy to help you.</div>
-                        </div>
+                    <div className="flex justify-center font-bold text-[16px] sm:text-[32px] px-5 lg:px-24 leading-7 sm:leading-[40.94px] lg:mt-80 mt-10 text-black items-start lg:items-center h-auto z-20">
+                        <div>
+                            <span className='text-[#D91222]'>Contact Us:</span> Have any questions or need assistance? <a href="#" className='underline text-[#3EBA59]'>Contact our support</a> team and we'll be happy to help you.</div>
+                    </div>
                 </div>
             </div>
         </>

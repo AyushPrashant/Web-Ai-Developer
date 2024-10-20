@@ -1,6 +1,9 @@
 import React from 'react'
+import { useState } from 'react';
+import SignIn from './SignIn';
 
 const GuidanceLast = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
     return (
         <>
             <div className='w-[98%] mx-auto h-[451px] relative rounded-[20px] bg-[#263238] mt-10 mb-20 '>
@@ -21,9 +24,13 @@ const GuidanceLast = () => {
                         </div>
                     </div>
                     <div className="flex justify-center">
-                        <button type="button" className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold">
+                        <button onClick={() => setModalOpen(true)}
+                            type="button"
+                            className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105"
+                        >
                             Get Started
                         </button>
+                        <SignIn isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
                     </div>
                 </div>
 

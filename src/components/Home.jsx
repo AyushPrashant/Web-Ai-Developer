@@ -1,7 +1,6 @@
 import React, { useRef, useState } from 'react';
 import Navbar from './Navbar';
 import Credit from './Credit';
-import Imgsection from './Imgsection';
 import SectionPage from './SectionPage';
 import SectionTwo from './SectionTwo';
 import CardSection from './CardSection';
@@ -10,16 +9,19 @@ import Overwhelmade from './Overwhelmade';
 import UserWorldWide from './UserWorldWide';
 import TradingWorld from './TradingWorld';
 import Footer from './Footer';
+import FundedProgram from './FundedProgram';
+import SignIn from './SignIn';
 
 const Home = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   const [clicked, setClicked] = useState(false);
-  
+
   // Create a ref for the section to scroll to
   const nextSectionRef = useRef(null);
 
   const handleClick = () => {
     setClicked(!clicked);
-    
+
     // Scroll to the section smoothly
     nextSectionRef.current.scrollIntoView({ behavior: 'smooth' });
   };
@@ -72,12 +74,13 @@ const Home = () => {
 
           <div className="flex pt-5 sm:pt-10 justify-center mt-5 sm:mt-7">
             <div>
-              <button
+              <button  onClick={() => setModalOpen(true)}
                 type="button"
-                className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold"
+                className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105"
               >
                 Get Started
               </button>
+              <SignIn isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
 
               <button
                 type="button"
@@ -99,14 +102,14 @@ const Home = () => {
           </div>
         </div>
       </div>
-      
+
       {/* Add the ref to the section */}
       <div ref={nextSectionRef}>
         <SectionPage />
       </div>
-      
+
       <SectionTwo />
-      <Imgsection />
+      <FundedProgram />
       <Credit />
       <CardSection />
       <CurveDesign />

@@ -1,10 +1,14 @@
 import React from 'react';
+import { useState } from 'react';
 import Active from './Active';
+import SignIn from './SignIn';
 
 const SectionTwo = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
     return (
         <>
-            <div className='w-full min-h-[900px] flex flex-col lg:flex-row relative'>
+         <SignIn isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
+            <div className='w-full min-h-[750px] flex flex-col lg:flex-row relative'>
                 {/* Background Image */}
                 <img
                     className="absolute inset-0 w-full h-full object-cover z-0"
@@ -33,12 +37,13 @@ const SectionTwo = () => {
                     </div>
                     {/* Get Started Button */}
                     <div className='mt-6 lg:mt-10'>
-                        <button
-                            type="button"
-                            className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold"
-                        >
-                            Get Started
-                        </button>
+                    <button  onClick={() => setModalOpen(true)}
+                type="button"
+                className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105"
+              >
+                Get Started
+              </button>
+             
                     </div>
                 </div>
                 {/* Right Box (Image + Active component) */}

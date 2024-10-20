@@ -15,9 +15,15 @@ const NavbarAll = () => {
                 {/* Top Buttons Section */}
                 <div className="flex pt-10 pr-7 w-full h-7 justify-end gap-4 sm:gap-10">
                     <div>
-                        <button onClick={() => setModalOpen(true)} type="button" className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#EF443B33] border-opacity-20 font-custom font-bold">
+                        <button
+                            onClick={() => setModalOpen(true)}
+                            type="button"
+                            className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#EF443B33] border-opacity-20 font-custom font-bold
+             transition duration-300 ease-in-out hover:bg-[#EF443B] hover:bg-opacity-50 hover:border-opacity-100"
+                        >
                             Login/Register
                         </button>
+
                         <LoginPage isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
                         <button
                             type="button"

@@ -3,7 +3,7 @@ import React from 'react'
 const InstaytSevSec = () => {
   return (
     <>
-       <div className="flex flex-col lg:flex-row items-center justify-between lg:px-20 px-6 py-12 bg-white">
+       <div className="flex flex-col lg:flex-row items-center justify-between lg:px-20 px-6 bg-white">
                 {/* Left Section: Mobile Screenshots */}
                 <div className="lg:w-1/2 w-full flex justify-center lg:justify-start mb-8 lg:mb-0">
                     <img

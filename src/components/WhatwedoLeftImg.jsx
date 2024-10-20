@@ -3,7 +3,7 @@ import React from 'react'
 const WhatwedoLeftImg = () => {
   return (
     <>
-       <div className=" flex mb-10 flex-col lg:flex-row items-center justify-between p-8  rounded-lg max-w-7xl mx-auto">
+       <div className=" flex mb-0 flex-col lg:flex-row items-center justify-between p-8  rounded-lg max-w-7xl mx-auto">
                 {/* Right Side: Chart Section */}
                 <div className="lg:w-[48%] flex items-center justify-center relative">
                     <img src="QuatoxLeft.svg" alt="" />
@@ -24,7 +24,7 @@ const WhatwedoLeftImg = () => {
                         <div className="absolute top-1/2 left-0 transform -translate-y-1/2 bg-blue-500 h-0.5 w-1/2"></div>
                     </div> */}
                 </div>
-                <div className="lg:w-[48%] mb-6 lg:mb-0">
+                <div className="lg:w-[48%] mb-6 lg:mb-0 z-10">
                     <h1 className="text-[40px] font-[700] leading-[51.88px] text-left font-manage text-[#212326]">
                     Diverse Trading Strategies
                     </h1>

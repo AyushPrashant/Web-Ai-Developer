@@ -9,14 +9,14 @@ const GuidanceMain = () => {
       <div className="relative w-full h-full">
         {/* Background Image */}
         <div
-          className="w-full h-[700px] md:h-[1000px] mb-32 bg-no-repeat bg-cover"
+          className="w-full h-[700px] md:h-[1000px] lg:h-[900px] mb-32 bg-no-repeat bg-cover"
           style={{ backgroundImage: 'url(GuidanceBg.svg)' }}
         ></div>
 
         {/* Text Positioned on Top */}
         <div className="absolute top-0 left-0 w-full h-full z-10"> {/* Ensure z-index is lower than sidebar */}
           <div className="flex items-center justify-center overflow-x-hidden min-h-screen">
-            <div className="flex flex-col lg:flex-row items-center md:items-start space-y-8 md:-space-y-10 md:space-x-20 -mt-4 md:mt-24 lg:mt-52">
+            <div className="flex flex-col lg:flex-row items-center md:items-start space-y-8 md:-space-y-10 md:space-x-20 -mt-4 md:mt-24 lg:mt-32">
               <div className="text-center md:text-left w-full sm:w-[400px] md:w-[501.24px] h-auto p-10 sm:p-4">
                 <div className="w-full h-auto mb-8 sm:mb-16">
                   <h1 className="text-[28px] sm:text-[36px] md:text-[49.25px] font-custom font-bold leading-[34px] sm:leading-[45px] md:leading-[57.71px] text-left mb-4 sm:mb-2 text-[#191A15]">
@@ -26,7 +26,7 @@ const GuidanceMain = () => {
                 </div>
                 <div className="w-full sm:w-[350px] md:w-[416.35px] h-auto mb-6 sm:mb-10">
                   <p className="text-[14px] sm:text-[16.26px] font-inter font-medium leading-[22px] sm:leading-[27.09px] text-left text-[#000000]">
-                    Let's make your work more organized and easily using Forexxy xy xy -Trade with many of the latest features in managing work every day.
+                    Let's make your work more organized and easily using Forexxy-Trade with many of the latest features in managing work every day.
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">

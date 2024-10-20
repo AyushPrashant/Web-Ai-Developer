@@ -36,7 +36,7 @@ const Enhance = () => {
                     </div>
 
                     {/* Right Side: Chart Section */}
-                    <div className="lg:w-[56%] flex items-center justify-center relative">
+                    <div className="lg:w-[50%] flex items-center justify-center relative">
                         <img src="EnhanceImg.svg" alt="" />
                         {/* <div className="relative bg-indigo-900 p-6 rounded-lg">
                         Card
@@ -56,8 +56,8 @@ const Enhance = () => {
                     </div> */}
                     </div>
                 </div>
-                <div className='absolute top-[20%]'>
-                    <img src="EnhanceBg.svg" alt="" />
+                <div className='absolute top-[20%] lg:right-0'>
+                    <img className='lg:w-[1500px]' src="EnhanceBg.svg" alt="" />
                 </div>
             </div>
         </>

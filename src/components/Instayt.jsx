@@ -14,13 +14,16 @@ const Instayt = () => {
     return (
         <>
             <NavbarAll />
-            <div className='relative mb-[520px] sm:mb-80 lg:mb-40'>
+            <div className='relative mb-[520px] sm:mb-80 lg:mb-20'>
                 <img src="InstaytBg.svg" alt="" className="w-full h-auto" />
                 <div className='absolute top-0 w-full'>
                     <img src="InstaytBg2.svg" alt="" className="w-full h-auto" />
                     <div className='absolute top-0 w-full'>
                         <img src="InstaytBg3.svg" alt="" className="w-full h-auto" />
                     </div>
+                    <div className='absolute top-32 left-[16%]'>
+                        <img src="Instayticon.svg" alt="" className="w-[970px] h-auto" />
+                        </div>
                 </div>
                 <div className='text-red-600 absolute top-14 sm:top-40 w-[95%] sm:w-[750px] h-auto flex flex-col justify-center items-center mx-auto left-0 right-0'>
                     <h1 className="font-manage text-white text-[32px] sm:text-[62px] font-normal leading-tight sm:leading-[74px] text-center">

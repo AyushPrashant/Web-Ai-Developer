@@ -14,11 +14,17 @@ const Navbar = () => {
     <>
       <div className="flex pt-10 pr-7 w-full h-7 justify-end gap-4 sm:gap-10">
         <div>
-          <button onClick={() => setModalOpen(true)} type="button" className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#EF443B33] border-opacity-20 font-custom font-bold">
+          <button
+            onClick={() => setModalOpen(true)}
+            type="button"
+            className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#EF443B33] border-opacity-20 font-custom font-bold
+             transition duration-300 ease-in-out hover:bg-[#EF443B] hover:bg-opacity-50 hover:border-opacity-100"
+          >
             Login/Register
           </button>
+
           <LoginPage isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
-            
+
           <button type="button" className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[12px] border border-[#EF443B33] border-opacity-20 font-custom font-bold">
             Free trial
           </button>
@@ -69,17 +75,44 @@ const Navbar = () => {
       </div>
 
       {/* Regular Navbar for larger screens */}
-      <div className="md:flex hidden  flex-col md:flex-row text-white justify-between px-5 sm:px-10 mt-8 mb-20 font-custom ">
-        <NavLink to="/"><div className="font-bold leading-[28px] text-[22px] sm:text-[28px]">Forexxy -Tradie</div></NavLink>
+      <div className="md:flex hidden flex-col md:flex-row text-white justify-between px-5 sm:px-10 mt-8 mb-20 font-custom">
+        <NavLink to="/">
+          <div className="font-bold leading-[28px] text-[22px] sm:text-[28px]">Forexxy -Tradie</div>
+        </NavLink>
         <ul className="flex flex-wrap gap-[16px] sm:gap-[30px] mt-4 md:mt-0">
-          <NavLink to="/guidance"> <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer">Guidance</li></NavLink>
-          <NavLink to="/trustedclient"> <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer">Trusted Clients  </li></NavLink>
-          <NavLink to="/whatwedo"> <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer">What We Do</li></NavLink>
-          <NavLink to="/getstarted"> <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer">Get Started</li></NavLink>
-          <NavLink to="/support"><li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer">Support</li></NavLink>
-          <NavLink to="/instayt"><li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px]">Insta/YT</li></NavLink>
+          <NavLink to="/guidance">
+            <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer transition duration-300 ease-in-out hover:text-gray-300 hover:underline hover:underline-offset-4">
+              Guidance
+            </li>
+          </NavLink>
+          <NavLink to="/trustedclient">
+            <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer transition duration-300 ease-in-out hover:text-gray-300 hover:underline hover:underline-offset-4">
+              Trusted Clients
+            </li>
+          </NavLink>
+          <NavLink to="/whatwedo">
+            <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer transition duration-300 ease-in-out hover:text-gray-300 hover:underline hover:underline-offset-4">
+              What We Do
+            </li>
+          </NavLink>
+          <NavLink to="/getstarted">
+            <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer transition duration-300 ease-in-out hover:text-gray-300 hover:underline hover:underline-offset-4">
+              Get Started
+            </li>
+          </NavLink>
+          <NavLink to="/support">
+            <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer transition duration-300 ease-in-out hover:text-gray-300 hover:underline hover:underline-offset-4">
+              Support
+            </li>
+          </NavLink>
+          <NavLink to="/instayt">
+            <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer transition duration-300 ease-in-out hover:text-gray-300 hover:underline hover:underline-offset-4">
+              Insta/YT
+            </li>
+          </NavLink>
         </ul>
       </div>
+
 
     </>
   )

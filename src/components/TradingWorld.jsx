@@ -1,9 +1,12 @@
 import React from 'react'
+import { useState } from 'react';
+import SignIn from './SignIn';
 
 const TradingWorld = () => {
+    const [isModalOpen, setModalOpen] = useState(false);
     return (
         <>
-            <div className="flex justify-center items-center h-[73vh] lg:h-screen -mt-4 md:-mt-12 lg:mt-20">
+            <div className="flex justify-center items-center h-[73vh] lg:h-screen -mt-4 md:-mt-12 lg:mt-0">
                 <div className="w-[90%] max-w-[1098px] h-[491px] p-8 sm:p-16 lg:p-28 rounded-[20px] bg-gradient-to-r from-[#000080] to-[#8A8A8A]">
                     <h2 className="text-white text-center mb-4 font-custom text-[32px] sm:text-[40px] lg:text-[50.4px] leading-[38px] sm:leading-[48px] lg:leading-[58.8px] font-normal">
                         Get ready to explore the <br /> Trading world
@@ -27,9 +30,13 @@ const TradingWorld = () => {
 
                     {/* Button */}
                     <div className="flex justify-center">
-                        <button type="button" className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[18.9px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-medium">
+                        <button onClick={() => setModalOpen(true)}
+                            type="button"
+                            className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105 z-50"
+                        >
                             Get Started
                         </button>
+                        <SignIn isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
                     </div>
                 </div>
             </div>
