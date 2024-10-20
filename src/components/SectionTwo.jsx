@@ -50,12 +50,12 @@ const SectionTwo = () => {
                 <div className="box2 w-full lg:w-[610px] h-auto lg:h-[494.53px] mx-auto pt-16 lg:pt-40 relative z-10">
                     <div className="w-full h-full overflow-hidden">
                         <img
-                            className="w-full lg:w-[90%] p-5 sm:6 h-full object-cover rounded-[40px] lg:rounded-[39.82px]"
+                            className="w-full md:w-[70%] lg:w-[90%] p-5 sm:6 h-full object-cover rounded-[40px] lg:rounded-[39.82px]"
                             src="tradback.jfif"
                             alt=""
                         />
                     </div>
-                    <div className='absolute top-[70%] lg:top-[55%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 lg:-translate-y-[10%] w-[85%] sm:w-[97%] lg:w-[460.29px] h-auto lg:h-[428.43px] rounded-[30px] lg:rounded-[39.82px] bg-white shadow-[0px_3.19px_3.19px_0px_#00000040]'>
+                    <div className='absolute top-[70%] md:top-[50%] lg:top-[55%] left-[50%] transform -translate-x-1/2 -translate-y-1/2 lg:-translate-y-[10%] w-[85%] sm:w-[80%] lg:w-[460.29px] h-auto lg:h-[428.43px] rounded-[30px] lg:rounded-[39.82px] bg-white shadow-[0px_3.19px_3.19px_0px_#00000040]'>
                         <Active />
                     </div>
                 </div>

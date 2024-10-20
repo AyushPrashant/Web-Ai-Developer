@@ -4,7 +4,7 @@ import GuidanceCard from './GuidanceCard';
 const GuidanceArtical = () => {
     return (
         <>
-            <div className='w-full max-w-[1300px] h-auto mx-auto mb-20 mt-20 px-4'>
+            <div className='w-full max-w-[1300px] h-auto mx-auto mb-20 mt-20'>
                 <div className='w-full max-w-[487px] h-auto mx-auto'>
                     <div className="font-manage text-[#212326] text-[32px] md:text-[40px] font-normal leading-tight md:leading-[51.88px] text-center">
                         Recent <span className="font-semibold text-[#D91222]">Articles & Lessons</span>

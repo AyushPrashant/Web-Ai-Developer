@@ -23,7 +23,7 @@ const SignIn = ({ isOpen, onClose }) => {
 
     return (
         <div
-            className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-20"
+            className="fixed inset-0 flex items-center justify-center z-50 bg-black bg-opacity-50"
             onClick={onClose} // Close modal when clicking outside the modal content
         >
             <div
@@ -39,7 +39,7 @@ const SignIn = ({ isOpen, onClose }) => {
                 </button>
 
                 {/* Forexxy - Tradie Logo */}
-                <div className="flex mt-2 mb-[10px] md:mb-0 md:mt-4 justify-between">
+                <div className="flex mt-2 mb-[15px] md:mb-0 md:mt-4 justify-between">
                     <h1 className="text-[24px] md:text-[28px] font-custom leading-[28px] font-bold text-[#190041]">Forexxy - Tradie</h1>
                     <div>
                         <button
@@ -48,7 +48,7 @@ const SignIn = ({ isOpen, onClose }) => {
                                 onClose(); // Close the Sign In modal
                             }}
                             type="button"
-                            className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center shadow-lg shadow-[#7B68EE]"
+                            className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-3 py-2.5 text-center shadow-lg shadow-[#7B68EE]"
                         >
                             Sign up
                         </button>
@@ -122,7 +122,7 @@ const SignIn = ({ isOpen, onClose }) => {
                         Log In
                     </button>
 
-                    <button className="absolute -bottom-[67px] md:-bottom-0 -right-2 md:-right-16">
+                    <button className="absolute -bottom-[67px] md:-bottom-0 -right-8 md:-right-16">
                         <img src="Help.svg" alt="Help" />
                     </button>
                 </div>

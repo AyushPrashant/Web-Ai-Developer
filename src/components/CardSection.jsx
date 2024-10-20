@@ -14,7 +14,7 @@ const CardSection = () => {
             <div className='max-w-[1216px] mx-auto p-4 -mt-32'>
                 <div className='mb-10'>
                     <div className='font-custom font-bold text-[26px] sm:text-[34.68px] text-[#212326] leading-[32px] sm:leading-[44.98px] '>
-                        Fully featured to buy, trade and <br />invest
+                        Fully featured to buy, trade and invest
                     </div>
                 </div>
 

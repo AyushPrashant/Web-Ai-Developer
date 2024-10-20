@@ -11,9 +11,8 @@ const SectionPage = () => {
 
             {/* Content section */}
             <div className='mt-[80px] md:mt-[80px] max-w-[1273px] w-full mx-auto flex flex-col md:flex-row px-4 gap-8 md:gap-4'>
-                
-                {/* Box 1 */}
-                <div className="box1 w-full md:w-[600px]">
+
+            <div className="box1 w-full md:w-[600px] hidden lg:block">
                     <div className='w-full flex flex-wrap gap-[10px]'>
                         <img className='rounded-[20px] w-full sm:w-[264px] h-auto' src="dev.jfif" alt="Dev" />
                         <img
@@ -35,6 +34,32 @@ const SectionPage = () => {
                             alt="Mobile"
                         />
                         <img className='rounded-[20px] w-full sm:w-[345px] h-auto' src="trad.jfif" alt="Trade" />
+                    </div>
+                </div>
+                
+                {/* Box 1 */}
+                 <div className="box1 w-full md:w-[600px] block lg:hidden">
+                    <div className='w-full grid grid-cols-2 gap-[10px]'>
+                        <img className='rounded-[20px] w-full h-auto' src="dev.jfif" alt="Dev" />
+                        <img
+                            className='rounded-[20px] w-full h-auto'
+                            style={{
+                                boxShadow: '0px 0px 10px 0px #00000012, 0px 20px 25px -5px #0000001A'
+                            }}
+                            src="lap.jfif"
+                            alt="Laptop"
+                        />
+                    </div>
+                    <div className='w-full grid grid-cols-2 mt-4'>
+                        <img
+                            className='rounded-[20px] w-[90%] h-auto'
+                            style={{
+                                boxShadow: '0px 0px 10px 0px #00000012, 0px 20px 25px -5px #0000001A'
+                            }}
+                            src="mob.jfif"
+                            alt="Mobile"
+                        />
+                        <img className='rounded-[20px] w-full h-[70%]' src="trad.jfif" alt="Trade" />
                     </div>
                 </div>
                 

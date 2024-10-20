@@ -8,7 +8,7 @@ const TradeUser = () => {
                 <img
                     src="TradeBlue.svg"
                     alt="Blue Background"
-                    className="absolute top-10 left-0 w-full h-[1100px] mb-4"
+                    className="absolute top-10 left-0 w-full h-auto mb-4 z-[-1]"
                 />
 
                 {/* Last image underneath the blue image */}
@@ -19,9 +19,9 @@ const TradeUser = () => {
                 />
 
                 {/* Text on top of the last image */}
-                <div className="absolute top-1/3 left-[1%] text-[#E0E0E0] z-20">
+                <div className="absolute top-1/3 left-[1%] text-[#E0E0E0] z-auto">
                     <div className='flex flex-col items-center justify-center'>
-                        <div className="font-manage text-[22px] sm:text-[60px] w-[100%] mb-24 lg:mb-10 font-bold leading-[77.82px] text-center">
+                        <div className="font-manage text-[22px] sm:text-[60px] w-[100%] mb-24 md:mb-10 font-bold leading-[77.82px] text-center">
                             Trusted by <span className='text-[#D91222] whitespace-nowrap'>10 Millions</span>+ Users.
                         </div>
                         <img src="RedClock.svg" alt="" />
@@ -39,7 +39,7 @@ const TradeUser = () => {
                             </div>
                         </div>
                     </div>
-                    <div className="flex justify-center font-bold text-[16px] sm:text-[32px] px-5 lg:px-24 leading-7 sm:leading-[40.94px] lg:mt-80 mt-10 text-black items-start lg:items-center h-auto z-20">
+                    <div className=" font-bold text-[16px] sm:text-[32px] px-5 lg:px-24 leading-7 sm:leading-[40.94px] lg:mt-80 mt-10 text-black h-auto z-auto">
                         <div>
                             <span className='text-[#D91222]'>Contact Us:</span> Have any questions or need assistance? <a href="#" className='underline text-[#3EBA59]'>Contact our support</a> team and we'll be happy to help you.</div>
                     </div>

@@ -51,7 +51,7 @@ const Credit = () => {
                             <img src="CreditImg.svg" alt="Credit Image" className="w-full h-auto object-contain" />
                         </div>
 
-                        <div className='absolute w-[90%] lg:w-[1052.71px] h-auto top-[17.29px] sm:top-[187.29px] left-[52%] transform -translate-x-1/2 mx-auto lg:top-80'>
+                        <div className='absolute w-full lg:w-[1052.71px] h-auto top-[17.29px] sm:top-[187.29px] left-[52%] transform -translate-x-1/2 mx-auto lg:top-80'>
                             <div className='flex flex-col lg:flex-row justify-between'>
                                 <div className='font-manage font-bold text-white text-[24px] lg:text-[34.74px] leading-[45.06px] text-center'>
                                     Your Money...Your Choice

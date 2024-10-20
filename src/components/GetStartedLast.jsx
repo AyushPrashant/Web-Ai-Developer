@@ -15,7 +15,7 @@ const GetStartedLast = () => {
                 />
 
                 {/* Text on top of the last image */}
-                <div className="absolute top-[18%] sm:top-10 lg:top-[20%] w-full z-20">
+                <div className="absolute top-[18%] sm:top-10 lg:top-[20%] w-full z-auto">
                     <div className='flex flex-col items-center justify-start'>
                         <div className="font-manage text-[22px] sm:text-[36px] lg:text-[50px] w-full mb-1 sm:mb-6 lg:mb-5 font-bold leading-[40px] sm:leading-[64.85px] text-[#212326] text-center p-5 lg:p-0">
                             Start Trading with <span className='text-[#D91222]'>Forexxy -Tradie Today!</span>
