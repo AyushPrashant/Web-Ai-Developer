@@ -45,7 +45,7 @@ const Home = () => {
           </span>
         </div>
 
-        <div className="text-[#A6AAB2] font-inter font-medium leading-[24px] text-[14px] sm:text-[18px] text-center mt-5 sm:mt-7">
+        <div className="text-[#A6AAB2] font-inter font-medium leading-[24px] text-[14px] sm:text-[18px] text-center mt-5 sm:mt-7 px-4 md:px-0">
           <div>Clients in over 200 countries and territories trade stocks, options, futures, currencies, bonds, funds,</div>
           <div>more on 150 global markets from a single unified platform. Explore all available products worldwide.</div>
 
@@ -94,7 +94,7 @@ const Home = () => {
           <div className="font-Montserrat font-medium text-[10px] sm:text-[12px] leading-[14.63px] text-white text-opacity-[74%] mt-[90px] sm:mt-[110px] flex flex-col items-center">
             <div className="mb-2">Discover more</div>
             <div
-              className={`w-[20px] cursor-pointer sm:w-[23px] h-[30px] sm:h-[36px] border-2 border-white rounded-3xl flex justify-center items-center mt-2 transition-transform duration-300 ease-in transform ${clicked ? 'scale-125' : 'scale-100'}`}
+              className={`w-[20px] mb-8 lg:mb-0 cursor-pointer sm:w-[23px] h-[30px] sm:h-[36px] border-2 border-white rounded-3xl flex justify-center items-center mt-2 transition-transform duration-300 ease-in transform ${clicked ? 'scale-125' : 'scale-100'}`}
               onClick={handleClick}
             >
               |

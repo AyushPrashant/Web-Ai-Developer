@@ -21,7 +21,7 @@ const Instayt = () => {
                     <div className='absolute top-0 w-full'>
                         <img src="InstaytBg3.svg" alt="" className="w-full h-auto" />
                     </div>
-                    <div className='absolute top-32 left-[16%]'>
+                    <div className='absolute top-28 md:top-32 md:left-[16%]'>
                         <img src="Instayticon.svg" alt="" className="w-[970px] h-auto" />
                         </div>
                 </div>
@@ -29,10 +29,10 @@ const Instayt = () => {
                     <h1 className="font-manage text-white text-[32px] sm:text-[62px] font-normal leading-tight sm:leading-[74px] text-center">
                         Follow Us on Social Media
                     </h1>
-                    <p className="font-custom text-white py-3 px-4 sm:px-20 text-[16px] sm:text-[18px] font-normal leading-6 sm:leading-[34px] text-center">
+                    <p className="font-custom text-white py-3 px-4 sm:px-20 text-[14px] sm:text-[18px] font-normal leading-6 sm:leading-[34px] text-center">
                         Stay connected with Forexxy -Tradie and join our thriving online community. Follow us on Instagram and YouTube for the latest updates, market insights, educational content, and more. Engage with us and other traders to enhance your trading journey.
                     </p>
-                    <div className='flex flex-col sm:flex-row mt-10 space-y-4 sm:space-y-0 sm:space-x-6'>
+                    <div className='flex flex-col sm:flex-row mt-20 space-y-4 sm:space-y-0 sm:space-x-6'>
                         <button type="button" className="py-3 px-6 sm:py-4 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-full border border-[#EF443B33] border-opacity-20 font-custom font-bold">
                             Instagram Community
                         </button>

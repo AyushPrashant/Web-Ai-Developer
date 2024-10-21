@@ -19,7 +19,7 @@ const CardSection = () => {
                 </div>
 
                 {/* Responsive Grid for Cards */}
-                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[34.68px]'>
+                <div className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-[34.68px] justify-items-center'>
                     <Card img='RealTime.svg' title='Real-time trading' ShadowImg='RealTimeShadow.svg' SubTitle='Organically grow the holistic world view of disruptive innovati workplace diversity empowerment.' />
                     <Card img='integrated.svg' title='Integrated signals' ShadowImg='IntegratedShadow.svg' SubTitle='Organically grow the holistic world view of disruptive innovati workplace diversity empowerment.' />
                     <Card img='SafeSecure.svg' title='Safe & secure' ShadowImg='SafeSecureShadow.svg' SubTitle='Organically grow the holistic world view of disruptive innovati workplace diversity empowerment.' />
