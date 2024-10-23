@@ -15,7 +15,7 @@
 //             <div className="container mx-auto px-4 lg:px-20">
 //                 {/* Top Row: Logo and Button */}
 //                 <div className="flex flex-col lg:flex-row justify-between items-center mb-3">
-//                     <h2 className="text-2xl font-bold text-[#26CC57]">Forexxy -Tradie</h2>
+//                     <h2 className="text-2xl font-bold text-[#26CC57]">Forexyy -Tradie</h2>
 //                     <div className='flex gap-5 z-10'>
 //                         <button onClick={() => setSignInOpen(true)} className="bg-[#3EBA59] text-white px-6 py-3 mt-4 lg:mt-0 rounded-full text-sm font-medium border-4 border-transparent hover:bg-green-700 hover:text-gray-300 hover:border-[#3EBA59] transition-all duration-300">
 //                             <div className='flex gap-3'>
@@ -76,7 +76,7 @@
 //                             +1 (406) 555-0120<br />
 //                             +1 (480) 555-0103<br />
 //                         </p>
-//                         <a href="mailto:help@Forexxy -tradie.com" className="text-white">help@Forexxy -tradie.com</a>
+//                         <a href="mailto:help@Forexyy -tradie.com" className="text-white">help@Forexyy -tradie.com</a>
 //                     </div>
 
 //                     {/* Social Media and Location */}
@@ -100,7 +100,7 @@
 
 //                 {/* Copyright Section */}
 //                 <div className="border-t border-[#334155] pt-6 text-center text-sm text-[#A6A6A6]">
-//                     Copyright © Forexxy -Tradie
+//                     Copyright © Forexyy -Tradie
 //                 </div>
 //             </div>
 //         </footer>
@@ -128,7 +128,7 @@ const Footer = () => {
             <div className="container mx-auto px-4 lg:px-20 relative z-10">
                 {/* Top Row: Logo and Button */}
                 <div className="flex flex-col lg:flex-row justify-between items-center mb-3">
-                    <h2 className="text-2xl font-bold text-[#26CC57]">Forexxy -Tradie</h2>
+                    <h2 className="text-2xl font-bold text-[#26CC57]">Forexyy -Tradie</h2>
                     <div className='flex gap-5'>
                         <button onClick={() => setSignInOpen(true)} className="bg-[#3EBA59] text-white px-6 py-3 mt-4 lg:mt-0 rounded-full text-sm font-medium border-4 border-transparent hover:bg-green-700 hover:text-gray-300 hover:border-[#3EBA59] transition-all duration-300">
                             <div className='flex gap-3'>
@@ -189,7 +189,7 @@ const Footer = () => {
                             +1 (406) 555-0120<br />
                             +1 (480) 555-0103<br />
                         </p>
-                        <a href="mailto:help@Forexxy-tradie.com" className="text-white">help@Forexxy-tradie.com</a>
+                        <a href="mailto:help@Forexyy-tradie.com" className="text-white">help@Forexyy-tradie.com</a>
                     </div>
 
                     {/* Social Media and Location */}
@@ -212,7 +212,7 @@ const Footer = () => {
 
                 {/* Copyright Section */}
                 <div className="border-t border-[#334155] pt-6 text-center text-sm text-[#A6A6A6]">
-                    Copyright © Forexxy -Tradie
+                    Copyright © Forexyy -Tradie
                 </div>
             </div>
         </footer>

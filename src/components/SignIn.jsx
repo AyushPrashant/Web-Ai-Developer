@@ -38,9 +38,9 @@ const SignIn = ({ isOpen, onClose }) => {
                     <img src="Close.svg" alt="Close" />
                 </button>
 
-                {/* Forexxy - Tradie Logo */}
+                {/* Forexyy - Tradie Logo */}
                 <div className="flex mt-2 mb-[15px] md:mb-0 md:mt-4 justify-between">
-                    <h1 className="text-[24px] md:text-[28px] font-custom leading-[28px] font-bold text-[#190041]">Forexxy - Tradie</h1>
+                    <h1 className="text-[24px] md:text-[28px] font-custom leading-[28px] font-bold text-[#190041]">Forexyy - Tradie</h1>
                     <div>
                         <button
                             onClick={() => {
@@ -189,9 +189,9 @@ export default SignIn;
 //                     <img src="Close.svg" alt="Close" />
 //                 </button>
 
-//                 {/* Forexxy -Tradie Logo */}
+//                 {/* Forexyy -Tradie Logo */}
 //                 <div className='flex mt-2 mb-[10px] md:mb-0 md:mt-4 justify-between'>
-//                     <h1 className="text-[24px] md:text-[28px] font-custom leading-[28px] font-bold text-[#190041]">Forexxy -Tradie</h1>
+//                     <h1 className="text-[24px] md:text-[28px] font-custom leading-[28px] font-bold text-[#190041]">Forexyy -Tradie</h1>
 //                     <div>
 //                         <button onClick={() => setModalOpen(true)} type="button" className="text-white bg-gradient-to-r from-red-400 via-red-500 to-red-600 hover:bg-gradient-to-br focus:ring-4 focus:outline-none focus:ring-red-300 dark:focus:ring-red-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center shadow-lg shadow-[#7B68EE]">
 //                             Sign up

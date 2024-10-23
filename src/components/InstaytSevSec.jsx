@@ -15,7 +15,7 @@ const InstaytSevSec = () => {
                 {/* Right Section: Text Content */}
                 <div className="lg:w-[56%] w-full text-center lg:text-left">
                 <h2 className="text-[#181D26] font-medium text-[32px] leading-[44px] text-left mb-4 lg:text-[40px]">
-                Follow Us on YouTube: <span className="text-[#D91222]">@Forexxy -TradieOfficial</span>
+                Follow Us on YouTube: <span className="text-[#D91222]">@Forexyy -TradieOfficial</span>
                     </h2>
                     <p className="text-[#697B98] font-normal text-[18px] leading-[30px] text-left mb-6">
                     Our YouTube account is your daily dose of trading inspiration, insights, and education. Follow us to stay connected with the latest market trends, trading tips, and community highlights.
@@ -25,7 +25,7 @@ const InstaytSevSec = () => {
                             <img src="GreenTick.svg" alt="" />
                             <div className='font-custom text-[#333840]'>
                             <span className="font-bold text-[#3EBA59] text-[18px] leading-[30px] text-left">
-                            In-Depth Tutorials: </span>Learn how to navigate the Forexxy -Tradie platform with ease through our detailed tutorials.
+                            In-Depth Tutorials: </span>Learn how to navigate the Forexyy -Tradie platform with ease through our detailed tutorials.
                             </div>
                         </li>
                         <li className="flex items-start gap-2">

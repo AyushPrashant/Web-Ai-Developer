@@ -5,7 +5,7 @@ const CurveDesign = () => {
     <>
       <div className='block lg:hidden'>
         <div className='font-custom mt-5 px-4 mb-2 sm:px-5 font-bold text-[24px] sm:text-[30px] lg:text-[34.68px] leading-[32px] sm:leading-[40px] lg:leading-[44.98px] text-[#212326]'>
-          How to <span className='text-[#D91222]'>Trade With</span> Forexxy -Tradie
+          How to <span className='text-[#D91222]'>Trade With</span> Forexyy -Tradie
         </div>
 
         <img src="StepToTrade.svg" alt="" className='px-3' />
@@ -13,7 +13,7 @@ const CurveDesign = () => {
 
       <div className='mt-20 w-[545.37px] ml-[112px] h-[45px] hidden lg:block'>
         <div className='font-custom font-bold text-[34.68px] leading-[44.98px] text-[#212326]'>
-          How to <span className='text-[#D91222]'>Trade With</span> Forexxy -Tradie
+          How to <span className='text-[#D91222]'>Trade With</span> Forexyy -Tradie
         </div>
       </div>
 

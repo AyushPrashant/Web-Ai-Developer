@@ -39,10 +39,10 @@ const Getstarted = () => {
                             <div className="md:w-1/2 p-6">
                                 <h1 className="font-bold text-left text-[#212326] font-manage text-[36px] lg:text-[55px] leading-[48px] md:text-[50px] md:leading-[51.33px] lg:leading-[84.31px]">
                                     Get Started With
-                                    <span className="text-[#D91222]"><br />Forexxy -Tradie</span>
+                                    <span className="text-[#D91222]"><br />Forexyy -Tradie</span>
                                 </h1>
                                 <p className="font-custom text-[14px] md:text-[16px] leading-[22px] md:leading-[26px] text-left mt-4 text-[#808080]">
-                                    Welcome to Forexxy -Tradie! We're excited to have you on board and ready to help you embark on your trading journey. Whether you're a beginner or an experienced trader, our platform offers everything you need to trade with confidence. Follow the steps below to get started.
+                                    Welcome to Forexyy -Tradie! We're excited to have you on board and ready to help you embark on your trading journey. Whether you're a beginner or an experienced trader, our platform offers everything you need to trade with confidence. Follow the steps below to get started.
                                 </p>
                                 <div className="mt-6">
                                     <div className="flex flex-col items-center justify-center p-4 md:p-8">
@@ -82,14 +82,14 @@ const Getstarted = () => {
                             </div>
                             <div className="md:w-[420px] w-full h-auto bg-white rounded-[30px] shadow-lg mt-8 md:mt-0 px-8 py-4">
                                 <div className="bg-[#190041] text-white text-center py-4 rounded-t-lg">
-                                    <h2 className="text-xl font-bold">Forexxy -TRADIE</h2>
+                                    <h2 className="text-xl font-bold">Forexyy -TRADIE</h2>
                                 </div>
                                 <div className="bg-white flex flex-col h-full justify-center p-6 rounded-b-lg shadow-lg">
                                     <div className='mb-6 md:mb-24'>
                                         <input type="email" placeholder="Email" className="w-full p-3 mb-4 border border-[#D4D4D4] rounded-full bg-[#D4D4D4] bg-opacity-20" />
                                         <input type="password" placeholder="Password" className="w-full p-3 mb-4 border border-[#D4D4D4] rounded-full bg-[#D4D4D4] bg-opacity-20" />
                                     </div>
-                                    <button type="button" className="py-3 sm:py-4 px-6 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold">
+                                    <button type="button" className="py-4 sm:py-4 px-6 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold">
                                         Get Started
                                     </button>
                                 </div>
@@ -129,18 +129,18 @@ const Getstarted = () => {
                 step2="Make sure to save your Trader ID as you will need it for the next step."
                 imageSrc="GetstartedRightImg.svg" />
             <div className='relative'>
-                <GetstartedLeft imageSrc="GetstartedQuatox2.svg" stepnumber="2" title="Create an" subtitle="Account with Forexxy -Tradie" signupLink="#" steps1='Create account with Forexxy -tradie ' steps2='Enter your personal details, including your name, email address, and a strong password.' steps3='Enter your personal details, including your name, email address, and a strong password.' />
+                <GetstartedLeft imageSrc="GetstartedQuatox2.svg" stepnumber="2" title="Create an" subtitle="Account with Forexyy -Tradie" signupLink="#" steps1='Create account with Forexyy -tradie ' steps2='Enter your personal details, including your name, email address, and a strong password.' steps3='Enter your personal details, including your name, email address, and a strong password.' />
 
                 <GetstartedRight
                     title="Verification Process"
-                    step1="Once you submit your details, Forexxy -Tradie will verify your Trader ID."
-                    step2="Upon successful verification, you will receive your Forexxy -Tradie login credentials via email and SMS."
+                    step1="Once you submit your details, Forexyy -Tradie will verify your Trader ID."
+                    step2="Upon successful verification, you will receive your Forexyy -Tradie login credentials via email and SMS."
                     imageSrc="GetstartedRightImg2.svg" />
                 <div className='absolute top-1 lg:right-0'>
                     <img className='lg:w-[1500px]' src="GetstartedPropes.svg" alt="" />
                 </div>
             </div>
-            <GetstartedLeft imageSrc="GetstartedQuatox3.svg" stepnumber="3" title="Log In and" subtitle="Start Using Our Services" signupLink="#" steps1='Use the credentials you received from Forexxy -Tradie to log in to TradeSmart.' steps2='Navigate to the login page and enter your email address and password.' steps3='Agree to the terms of service and privacy policy, then click "Create Account."' />
+            <GetstartedLeft imageSrc="GetstartedQuatox3.svg" stepnumber="3" title="Log In and" subtitle="Start Using Our Services" signupLink="#" steps1='Use the credentials you received from Forexyy -Tradie to log in to TradeSmart.' steps2='Navigate to the login page and enter your email address and password.' steps3='Agree to the terms of service and privacy policy, then click "Create Account."' />
 
             <GetstartedRight
                 title="Explore the Platform"

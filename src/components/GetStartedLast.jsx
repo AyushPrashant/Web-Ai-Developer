@@ -18,16 +18,16 @@ const GetStartedLast = () => {
                 <div className="absolute top-[18%] sm:top-10 lg:top-[20%] w-full z-auto">
                     <div className='flex flex-col items-center justify-start'>
                         <div className="font-manage text-[22px] sm:text-[36px] lg:text-[50px] w-full mb-1 sm:mb-6 lg:mb-5 font-bold leading-[40px] sm:leading-[64.85px] text-[#212326] text-center p-5 lg:p-0">
-                            Start Trading with <span className='text-[#D91222]'>Forexxy -Tradie Today!</span>
+                            Start Trading with <span className='text-[#D91222]'>Forexyy -Tradie Today!</span>
                         </div>
                         <p className='text-[#797979]  w-full sm:w-[95%] lg:w-1/2 p-3 sm:p-6 text-center'>
-                            Join Forexxy -Tradie today and take your trading to the next level. Whether you're a beginner or an experienced trader, we have everything you need to succeed in the financial markets.
+                            Join Forexyy -Tradie today and take your trading to the next level. Whether you're a beginner or an experienced trader, we have everything you need to succeed in the financial markets.
                         </p>
 
                         <div className="flex justify-center mx-auto mt-4 pl-0 lg:pl-10 w-[90%] sm:mx-0">
                             <button onClick={() => setModalOpen(true)}
                                 type="button"
-                                className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105"
+                                className="py-4 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105"
                             >
                                 Get Started
                             </button>

@@ -84,7 +84,7 @@ const Home = () => {
 
               <button
                 type="button"
-                className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#FFFFFF] bg-opacity-[4%] text-white focus:outline-none rounded-[48px] border border-[#FF8811] border-opacity-20 font-custom font-bold"
+                className="py-4 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#FFFFFF] bg-opacity-[4%] text-white focus:outline-none rounded-[48px] border border-[#FF8811] border-opacity-20 font-custom font-bold"
               >
                 Try Demo
               </button>

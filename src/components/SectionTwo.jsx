@@ -19,10 +19,10 @@ const SectionTwo = () => {
                 <div className="box1 w-full lg:w-[498px] h-auto lg:h-[506px] pt-10 lg:pt-36 px-4 sm:px-8 mx-auto relative z-10 text-center lg:text-left">
                     <div className='font-manage font-bold text-[30px] lg:text-[40px] leading-[38px] lg:leading-[51.88px]'>
                         <span className='text-[#212326]'>Explore endless possibilities with </span>
-                        <span className='text-[#D91222]'>Forexxy -Tradie</span>
+                        <span className='text-[#D91222]'>Forexyy -Tradie</span>
                     </div>
                     <div className='font-custom font-normal text-[16px] lg:text-[18px] leading-[24px] lg:leading-[28.8px] text-[#797979] w-full lg:w-[498px] mt-4 lg:mt-6'>
-                        A streamlined experience to trade stocks, ETFs, and options worldwide. Invest with as little as $1 and trade in fractions. Open a simulated trading account in seconds and try Forexxy -Tradie Global Trader before opening a live trading account.
+                        A streamlined experience to trade stocks, ETFs, and options worldwide. Invest with as little as $1 and trade in fractions. Open a simulated trading account in seconds and try Forexyy -Tradie Global Trader before opening a live trading account.
                     </div>
                     {/* Support and Security Cards */}
                     <div className='flex flex-col lg:flex-row mt-5 gap-[16px] w-full lg:w-[610px]'>
@@ -39,7 +39,7 @@ const SectionTwo = () => {
                     <div className='mt-6 lg:mt-10'>
                     <button  onClick={() => setModalOpen(true)}
                 type="button"
-                className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105"
+                className="py-4 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105"
               >
                 Get Started
               </button>

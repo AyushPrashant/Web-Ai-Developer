@@ -31,7 +31,7 @@ const WhatWeDo = () => {
                             Your Partner In <span className="text-[#D91222]">Trading Success</span>
                         </h1>
                         <p className="font-roboto text-base lg:text-[18px] font-normal leading-6 lg:leading-[28.8px] text-center mt-6 text-[#797979] max-w-2xl lg:max-w-4xl mx-auto">
-                            At Forexxy-Trade, we believe that everyone has the potential to be a successful trader. Our mission is to empower traders of all levels with the tools, knowledge, and support they need to navigate the financial markets with confidence and achieve their trading goals. Here's how we do it.
+                            At Forexyy-Trade, we believe that everyone has the potential to be a successful trader. Our mission is to empower traders of all levels with the tools, knowledge, and support they need to navigate the financial markets with confidence and achieve their trading goals. Here's how we do it.
                         </p>
                     </div>
                 </div>

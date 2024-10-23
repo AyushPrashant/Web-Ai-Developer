@@ -44,7 +44,7 @@ const CardStay = ({ title, description }) => {
                 }
 
                 .animate-scrollY {
-                    animation: scrollY 10s linear infinite;
+                    animation: scrollY 20s linear infinite;
                 }
             `}</style>
         </>

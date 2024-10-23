@@ -26,7 +26,7 @@ const GuidanceMain = () => {
                 </div>
                 <div className="w-full sm:w-[350px] md:w-[416.35px] h-auto mb-6 sm:mb-10">
                   <p className="text-[14px] sm:text-[16.26px] font-inter font-medium leading-[22px] sm:leading-[27.09px] text-left text-[#000000]">
-                    Let's make your work more organized and easily using Forexxy-Trade with many of the latest features in managing work every day.
+                    Let's make your work more organized and easily using Forexyy-Trade with many of the latest features in managing work every day.
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">

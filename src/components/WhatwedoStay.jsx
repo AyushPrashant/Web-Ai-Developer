@@ -31,30 +31,32 @@ const WhatwedoStay = () => {
                             <div className='flex flex-col lg:mt-20 mt-0'>
                                 <CardStay
                                     title="Interactive Courses"
-                                    description="Enroll in our interactive courses designed by industry professionals. These courses cover a wide range of topics and are suitable for traders of all experience levels. Follow our step-by-step guides to master essential trading skills and concepts."
+                                    description="Enroll in our interactive courses designed by industry professionals. These courses cover a wide range of topics and are suitable for traders of all experience levels. Follow our step-by-step guides to master essential trading skills and concepts. These guides break down complex topics into manageable steps, making it easy for you to learn and apply new knowledge."
                                 />
                                 <CardStay
                                     title="Market Analysis"
-                                    description="Market analysis in Forexxy  trading involves evaluating the market to make informed trading decisions. It’s an essential aspect for traders to understand price movements, trends, and potential future actions."
+                                    description="Market analysis in Forex trading involves evaluating the market to make informed trading decisions. It’s an essential aspect for traders to understand price movements, trends, and potential future actions in the currency markets. Forex-Tradie offers comprehensive tools and resources to help traders perform effective market analysis, allowing them to identify trading opportunities, manage risks, and improve their strategies."
                                 />
                             </div>
                             <div className='flex flex-col'>
                                 <CardStay
                                     title="Mentorship Programs"
-                                    description="Take advantage of our mentorship programs to receive personalized guidance from experienced traders. Improve your trading skills and gain valuable insights from your mentors."
+                                    description="Take advantage of our mentorship programs to receive personalized guidance from experienced traders. Improve your trading skills and gain valuable insights from your mentors.
+Reach out to us through various channels including live chat, email, and phone. We strive to provide timely and effective support to ensure that you can trade without interruptions.And Visit our Help Center for a wealth of resources including FAQs, how-to guides, and troubleshooting tips. It's your go-to source for quick answers and solutions."
                                 />
                                 <CardStay
-                                    title="Back Testing in Forexxy "
-                                    description="Backtesting in Forexxy  trading is the process of testing a trading strategy on historical data to see how it would have performed in the past. It allows traders to simulate their strategies using real-world market conditions."
+                                    title="Back Testing in Forexyy "
+                                    description="Backtesting in Forex trading is the process of testing a trading strategy on historical data to see how it would have performed in the past. It allows traders to simulate their strategies using real-world market conditions to evaluate the effectiveness and profitability of the strategy without risking real money.
+The main goal of back testing is to determine whether a trading strategy is viable and to identify potential improvements before implementing it in live trading. By using past market data, traders can assess how a strategy might perform in future conditions."
                                 />
                             </div>
                         </div>
 
                         {/* Button */}
-                        <div className='flex justify-center items-center mt-10 lg:mt-5'>
+                        <div className='flex justify-center items-center mt-5 lg:mt-5'>
                             <button onClick={() => setModalOpen(true)}
                                 type="button"
-                                className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105 z-50"
+                                className="py-4 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105 z-50"
                             >
                                 Get Started
                             </button>

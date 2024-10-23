@@ -30,13 +30,13 @@ const Instayt = () => {
                         Follow Us on Social Media
                     </h1>
                     <p className="font-custom text-white py-3 px-4 sm:px-20 text-[14px] sm:text-[18px] font-normal leading-6 sm:leading-[34px] text-center">
-                        Stay connected with Forexxy -Tradie and join our thriving online community. Follow us on Instagram and YouTube for the latest updates, market insights, educational content, and more. Engage with us and other traders to enhance your trading journey.
+                        Stay connected with Forexyy -Tradie and join our thriving online community. Follow us on Instagram and YouTube for the latest updates, market insights, educational content, and more. Engage with us and other traders to enhance your trading journey.
                     </p>
                     <div className='flex flex-col sm:flex-row mt-20 space-y-4 sm:space-y-0 sm:space-x-6'>
-                        <button type="button" className="py-3 px-6 sm:py-4 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-full border border-[#EF443B33] border-opacity-20 font-custom font-bold">
+                        <button type="button" className="py-4 px-6 sm:py-4 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-full border border-[#EF443B33] border-opacity-20 font-custom font-bold">
                             Instagram Community
                         </button>
-                        <button type="button" className="py-3 px-6 sm:py-4 sm:px-10 text-[14px] sm:text-[16px] md:text-white focus:outline-none rounded-full border border-[#EF443B33] border-opacity-20 font-custom font-bold">
+                        <button type="button" className="py-4 px-6 sm:py-4 sm:px-10 text-[14px] sm:text-[16px] md:text-white focus:outline-none rounded-full border border-[#EF443B33] border-opacity-20 font-custom font-bold">
                             <div className='flex items-center gap-3'>
                                 <img src="Plays.svg" alt="" />
                                 <div>YouTube Community</div>
@@ -45,7 +45,7 @@ const Instayt = () => {
                     </div>
                 </div>
 
-                <div className='w-[90%] sm:w-[730px] h-[380px] sm:h-[500px] lg:w-[1020px] lg:h-[715px] absolute top-[145%] lg:top-1/2 sm:top-[70%] left-0 right-0 mx-auto bg-white border border-gray-700 rounded-lg'>
+                <div className='w-[90%] sm:w-[730px] h-[380px] sm:h-[500px] lg:w-[1020px] lg:h-[715px] absolute top-[150%] lg:top-1/2 sm:top-[70%] left-0 right-0 mx-auto bg-white border border-gray-700 rounded-lg'>
                     {/* Content can be added here */}
                 </div>
             </div>

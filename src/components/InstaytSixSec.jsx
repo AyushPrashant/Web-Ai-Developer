@@ -32,7 +32,7 @@ const InstaytSixSec = () => {
                         YouTube:
                     </span>
                     <span className="text-[#190041]">
-                        Forexxy -Tradie Official
+                        Forexyy -Tradie Official
                     </span>
                 </h1>
                 <p className="font-custom text-[16px] md:text-[20px] lg:text-[25px] font-normal leading-[28px] md:leading-[40px] lg:leading-[49px] tracking-[-0.72px] text-[#212326] text-left mt-4">
@@ -51,7 +51,7 @@ const InstaytSixSec = () => {
 
                 {/* Text */}
                 <p className="text-[#263238] px-4 md:px-20 lg:px-80 text-center mt-4 text-[20px] md:text-[28px] lg:text-[32px] font-medium leading-[30px] md:leading-[38px] lg:leading-[44px] relative z-30" style={{ fontFamily: 'DM Sans' }}>
-                    Subscribe to Our YouTube Channel: Never miss an update. Subscribe to Forexxy -Tradie Official
+                    Subscribe to Our YouTube Channel: Never miss an update. Subscribe to Forexyy -Tradie Official
                 </p>
 
                 <div className="flex flex-col items-center relative w-[90%]">
