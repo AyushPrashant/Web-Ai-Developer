@@ -30,7 +30,7 @@ const Instayt = () => {
                         Follow Us on Social Media
                     </h1>
                     <p className="font-custom text-white py-3 px-4 sm:px-20 text-[14px] sm:text-[18px] font-normal leading-6 sm:leading-[34px] text-center">
-                        Stay connected with Forexyy -Tradie and join our thriving online community. Follow us on Instagram and YouTube for the latest updates, market insights, educational content, and more. Engage with us and other traders to enhance your trading journey.
+                        Stay connected with Forexyy and join our thriving online community. Follow us on Instagram and YouTube for the latest updates, market insights, educational content, and more. Engage with us and other traders to enhance your trading journey.
                     </p>
                     <div className='flex flex-col sm:flex-row mt-20 space-y-4 sm:space-y-0 sm:space-x-6'>
                         <button type="button" className="py-4 px-6 sm:py-4 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-full border border-[#EF443B33] border-opacity-20 font-custom font-bold">

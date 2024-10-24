@@ -18,7 +18,7 @@ const SuccessStoriesSection = () => {
                     <li className="flex items-start mb-3">
                         <img src="GreenTick.svg" alt="" />
                         <div className='font-custom text-[#333840]'>
-                            <span className="font-bold text-[#3EBA59] text-[18px] leading-[30px] text-left">Testimonials:</span> Read testimonials from traders who have transformed their trading journey with Forexyy -Tradie.
+                            <span className="font-bold text-[#3EBA59] text-[18px] leading-[30px] text-left">Testimonials:</span> Read testimonials from traders who have transformed their trading journey with Forexyy.
                         </div>
                     </li>
                 </ul>

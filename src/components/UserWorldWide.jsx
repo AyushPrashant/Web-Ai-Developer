@@ -61,7 +61,7 @@ const UserWorldWide = () => {
                 </div>
 
                 {/* Navigation */}
-                <div className='mt-4 text-center text-[#455A64]'>
+                <div className='mt-4 mb-5 md:mb-0 text-center text-[#455A64]'>
                     <span
                         className='mr-4 font-custom font-medium text-sm sm:text-base md:text-[13.49px] cursor-pointer hover:text-[#1E88E5] transition-colors duration-300 hover:font-bold'
                         onClick={scrollLeft}

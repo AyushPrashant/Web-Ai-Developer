@@ -14,7 +14,7 @@ const GetstartedLeft = ({ imageSrc, title, subtitle, signupLink, steps1, stepnum
                             Step {stepnumber}: <span className="text-[#181426]">{title} {subtitle}</span>
                         </h2>
                         <a href={signupLink} className="font-custom pr-0 lg:pr-16 lg:pl-10 pl-0 text-[16px] md:text-[20px] font-normal leading-[20px] md:leading-[23.44px] text-[#3EBA59] ">
-                            Sign Up with Forexyy -Tradie
+                            Sign Up with Forexyy
                         </a>
                         <ul className="mt-8 space-y-4 lg:pl-10 pl-0">
                             <li className="flex items-center gap-3">

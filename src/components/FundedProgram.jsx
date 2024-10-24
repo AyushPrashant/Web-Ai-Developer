@@ -29,23 +29,23 @@
 //         </p>
 //         <ul className="mt-5 space-y-3">
 //           <li className="flex items-center">
-//             <span className="text-green-500 text-xl">+</span>
+//             <span className="text-green-500 text-[27px]">+</span>
 //             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">Two Rounds of evaluation on a demo account</span>
 //           </li>
 //           <li className="flex items-center">
-//             <span className="text-green-500 text-xl">+</span>
+//             <span className="text-green-500 text-[27px]">+</span>
 //             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">20% Return Target in each round</span>
 //           </li>
 //           <li className="flex items-center">
-//             <span className="text-green-500 text-xl">+</span>
+//             <span className="text-green-500 text-[27px]">+</span>
 //             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">No single trade exceeding 10% loss</span>
 //           </li>
 //           <li className="flex items-center">
-//             <span className="text-green-500 text-xl">+</span>
+//             <span className="text-green-500 text-[27px]">+</span>
 //             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">80-20 Profit Split on live account</span>
 //           </li>
 //           <li className="flex items-center">
-//             <span className="text-green-500 text-xl">+</span>
+//             <span className="text-green-500 text-[27px]">+</span>
 //             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">Opportunity to trade in a hedge fund for top traders</span>
 //           </li>
 //         </ul>
@@ -60,11 +60,32 @@ import React from 'react';
 
 const FundedProgram = () => {
   return (
-    <div className="bg-[#20272E] mt-20 sm:mt-0 text-white mb-10 flex flex-col lg:flex-row justify-between items-center p-10 relative overflow-hidden">
+    <div className="bg-[#08081E] mt-20 sm:mt-0 text-white mb-10 flex flex-col lg:flex-row justify-between items-center p-10 relative overflow-hidden hover:shadow-[inset_0px_0px_16px_2px_#02F16CF0]">
        
       {/* Background Image */}
-      <div className='absolute top-0 w-full h-full left-0 z-0'>
-        <img src="FundedBg.svg" alt="" className="w-full h-full object-cover" />
+      <div className="absolute top-10 md:bottom-0 left-0 z-0 w-full h-full animate-move-x">
+        <img src="FundedBg.svg" alt="Background" className="w-full" />
+      </div>
+      
+      {/* Other content goes here */}
+
+      <style jsx>{`
+        @keyframes moveX {
+          0% {
+            transform: translateX(0);
+          }
+          100% {
+            transform: translateX(100%);
+          }
+        }
+
+        .animate-move-x {
+          animation: moveX 30s linear infinite;
+        }
+      `}</style>
+  
+      <div className='absolute bottom-0 left-0 z-0'>
+        <img src="FundedLine.svg" alt="" className="" />
       </div>
 
       {/* Left Section */}
@@ -84,29 +105,29 @@ const FundedProgram = () => {
         <h3 className="font-custom font-semibold text-[30px] leading-[36px] tracking-[-0.02em] text-left">
           ALL ABOUT FUNDED ACCOUNT
         </h3>
-        <p className="font-roboto font-normal text-[16px] leading-[19.2px] text-left text-[#DFDFDF] py-5">
+        <p className="font-roboto font-normal text-[18px] leading-[19.2px] text-left text-[#DFDFDF] py-5">
           This structure ensures that only skilled and disciplined traders are selected, and they have the potential to
           earn a substantial income by proving their abilities on the demo platform.
         </p>
         <ul className="mt-5 space-y-3">
           <li className="flex items-center">
-            <span className="text-green-500 text-xl">+</span>
+            <span className="text-green-500 text-[27px]">+</span>
             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">Two Rounds of evaluation on a demo account</span>
           </li>
           <li className="flex items-center">
-            <span className="text-green-500 text-xl">+</span>
+            <span className="text-green-500 text-[27px]">+</span>
             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">20% Return Target in each round</span>
           </li>
           <li className="flex items-center">
-            <span className="text-green-500 text-xl">+</span>
+            <span className="text-green-500 text-[27px]">+</span>
             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">No single trade exceeding 10% loss</span>
           </li>
           <li className="flex items-center">
-            <span className="text-green-500 text-xl">+</span>
+            <span className="text-green-500 text-[27px]">+</span>
             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">80-20 Profit Split on live account</span>
           </li>
           <li className="flex items-center">
-            <span className="text-green-500 text-xl">+</span>
+            <span className="text-green-500 text-[27px]">+</span>
             <span className="font-inter font-normal text-[16px] leading-[19.2px] text-left ml-3">Opportunity to trade in a hedge fund for top traders</span>
           </li>
         </ul>

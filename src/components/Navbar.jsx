@@ -33,7 +33,7 @@
 
 //       <div className="flex items-center justify-between px-5 sm:px-10 mt-20 mb-5">
 //         <NavLink to="/">
-//           <div className="font-bold leading-[28px] text-[22px] text-white sm:text-[28px] md:hidden block">Forexyy -Tradie</div>
+//           <div className="font-bold leading-[28px] text-[22px] text-white sm:text-[28px] md:hidden block">Forexyy</div>
 //         </NavLink>
 //         {/* Hamburger Icon */}
 //         <div className="md:hidden">
@@ -141,8 +141,8 @@ const Navbar = () => {
           <button
             onClick={() => setModalOpen(true)}
             type="button"
-            className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#EF443B33] border-opacity-20 font-custom font-bold
-             transition duration-300 ease-in-out hover:bg-[#EF443B] hover:bg-opacity-50 hover:border-opacity-100"
+            className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#3EBA59] border-opacity-20 font-custom font-bold
+             transition duration-300 ease-in-out hover:bg-[#3EBA59] hover:bg-opacity-50 hover:border-opacity-100"
           >
             Login/Register
           </button>
@@ -161,7 +161,7 @@ const Navbar = () => {
       <div className="flex items-center justify-between px-5 sm:px-10 mt-7 md:mt-20 mb-5">
         <NavLink to="/">
           <div className="font-bold leading-[28px] text-[22px] text-white sm:text-[28px] md:hidden block">
-            Forexyy -Tradie
+            Forexyy
           </div>
         </NavLink>
         {/* Hamburger Icon */}
@@ -183,7 +183,7 @@ const Navbar = () => {
       {/* Sidebar Menu for Mobile */}
       <div
         className={`fixed top-0 left-0 h-full w-3/4 bg-[#212326] transition-transform transform ${isOpen ? 'translate-x-0' : '-translate-x-full'
-          } md:hidden`}
+          } md:hidden z-50`}
       >
         <button onClick={toggleSidebar} className="absolute top-4 right-4 text-white">
           <svg
@@ -274,7 +274,8 @@ const Navbar = () => {
               toggleSidebar(); // Close sidebar when button is clicked
             }}
             type="button"
-            className="py-4 px-4 text-[14px] text-white focus:outline-none rounded-[12px] border border-[#EF443B33] font-bold transition duration-300 ease-in-out hover:bg-[#EF443B] hover:bg-opacity-50"
+            className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#3EBA59] border-opacity-20 font-custom font-bold
+             transition duration-300 ease-in-out hover:bg-[#3EBA59] hover:bg-opacity-50 hover:border-opacity-100"
           >
             Login/Register
           </button>
@@ -291,11 +292,11 @@ const Navbar = () => {
 
 
       {/* Regular Navbar for larger screens */}
-      <div className="md:flex hidden flex-col md:flex-row text-white justify-between px-5 sm:px-10 mt-8 mb-20 font-custom">
+      <div className="md:flex hidden flex-col md:flex-row text-white justify-between px-5 lg:px-10 mt-8 mb-20 font-custom">
         <NavLink to="/">
-          <div className="font-bold leading-[28px] text-[22px] sm:text-[28px]">Forexyy -Tradie</div>
+          <div className="font-bold leading-[28px] text-[22px] sm:text-[28px] lg:text-[38px]">Forexyy</div>
         </NavLink>
-        <ul className="flex flex-wrap gap-[16px] sm:gap-[30px] mt-4 md:mt-0">
+        <ul className="flex flex-wrap gap-[16px] lg:gap-[30px] mt-4 md:mt-0">
           <NavLink to="/guidance">
             <li className="font-medium leading-[20px] sm:leading-[25.5px] text-[14px] sm:text-[17px] cursor-pointer transition duration-300 ease-in-out hover:text-gray-300 hover:underline hover:underline-offset-4">
               Guidance

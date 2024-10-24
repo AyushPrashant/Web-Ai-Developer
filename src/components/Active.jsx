@@ -6,15 +6,15 @@ const Active = () => {
         <>
             <div className='w-full sm:max-w-[409.32px] max-w-[285.32px] h-auto mx-auto m-8'>
                 {/* Button group */}
-                <div className='w-full max-w-[226.96px] h-[28.67px] flex gap-2 justify-between'>
+                <div className='w-full h-[28.67px] flex gap-2 justify-center'>
                     <button>
-                        <div className="w-full max-w-[66.89px] h-[27.87px] rounded-[9.56px] bg-[#F4F4F4] cursor-pointer hover:bg-[#D6D8F8] flex justify-center items-center p-2">
-                            <div className='font-inter font-medium text-[12.74px] leading-[20.39px] text-[#35527E]'>
+                        <div className="w-full max-w-[86.89px] h-[27.87px] rounded-[9.56px] bg-[#F4F4F4] cursor-pointer hover:bg-[#D6D8F8] flex justify-center items-center p-5">
+                            <div className='font-inter font-medium text-[16.74px] leading-[20.39px] text-[#35527E]'>
                                 Active
                             </div>
                         </div>
                     </button>
-                    <button>
+                    {/* <button>
                         <div className="w-full max-w-[66.89px] h-[27.87px] rounded-[9.56px] cursor-pointer hover:bg-[#D6D8F8] bg-[#F4F4F4] flex justify-center items-center p-2">
                             <div className='font-inter font-medium text-[12.74px] leading-[20.39px] text-[#35527E]'>
                                 Active
@@ -27,7 +27,7 @@ const Active = () => {
                                 Active
                             </div>
                         </div>
-                    </button>
+                    </button> */}
                 </div>
 
                 {/* Contact cards */}

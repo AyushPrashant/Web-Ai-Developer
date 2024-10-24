@@ -13,7 +13,7 @@ const TradingWorld = () => {
                     </h2>
 
                     <p className="text-white text-center font-custom font-bold text-sm lg:text-[16.8px] leading-[29.4px] mb-6 text-opacity-70">
-                        Join now with <span className="text-white">Forexyy -Tradie</span> to get the latest news and start mining now.
+                        Join now with <span className="text-white">Forexyy</span> to get the latest news and start mining now.
                     </p>
 
                     {/* Input Field */}
@@ -32,7 +32,7 @@ const TradingWorld = () => {
                     <div className="flex justify-center">
                         <button onClick={() => setModalOpen(true)}
                             type="button"
-                            className="py-4 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105 z-auto"
+                            className="py-4 sm:py-4 px-6 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105 z-auto"
                         >
                             Get Started
                         </button>

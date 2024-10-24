@@ -35,7 +35,7 @@ const WhatwedoStay = () => {
                                 />
                                 <CardStay
                                     title="Market Analysis"
-                                    description="Market analysis in Forex trading involves evaluating the market to make informed trading decisions. It’s an essential aspect for traders to understand price movements, trends, and potential future actions in the currency markets. Forex-Tradie offers comprehensive tools and resources to help traders perform effective market analysis, allowing them to identify trading opportunities, manage risks, and improve their strategies."
+                                    description="Market analysis in Forexyy trading involves evaluating the market to make informed trading decisions. It’s an essential aspect for traders to understand price movements, trends, and potential future actions in the currency markets. Forexxy offers comprehensive tools and resources to help traders perform effective market analysis, allowing them to identify trading opportunities, manage risks, and improve their strategies."
                                 />
                             </div>
                             <div className='flex flex-col'>
@@ -56,7 +56,7 @@ The main goal of back testing is to determine whether a trading strategy is viab
                         <div className='flex justify-center items-center mt-5 lg:mt-5'>
                             <button onClick={() => setModalOpen(true)}
                                 type="button"
-                                className="py-4 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105 z-50"
+                                className="py-4 sm:py-4 px-9 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105 z-50"
                             >
                                 Get Started
                             </button>

@@ -37,7 +37,7 @@
 //                 {/* Navbar for Tablet and Desktop */}
 //                 <div className="hidden md:flex flex-col md:flex-row text-white justify-between px-5 sm:px-10 mt-28 pb-10 font-custom">
 //                     <NavLink to="/" className="font-bold leading-[28px] text-[22px] sm:text-[28px]">
-//                         Forexyy -Tradie
+//                         Forexyy
 //                     </NavLink>
 //                     <ul className="flex flex-wrap gap-[16px] sm:gap-[30px] mt-4 md:mt-0">
 //                         <NavLink
@@ -107,7 +107,7 @@
 //                 <div className="md:hidden pb-6">
 //                     <div className="flex items-center justify-between px-5 sm:px-10 mt-20 mb-5">
 //                         <NavLink to="/">
-//                             <div className="font-bold leading-[28px] text-[22px] text-white sm:text-[28px] md:hidden block">Forexyy -Tradie</div>
+//                             <div className="font-bold leading-[28px] text-[22px] text-white sm:text-[28px] md:hidden block">Forexyy</div>
 //                         </NavLink>
 //                         {/* Hamburger Icon */}
 //                         <div className="md:hidden">
@@ -197,7 +197,8 @@ const NavbarAll = () => {
             <button
               onClick={() => setModalOpen(true)}
               type="button"
-              className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition duration-300 ease-in-out hover:bg-[#EF443B] hover:bg-opacity-50 hover:border-opacity-100"
+              className="py-4 px-4 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#3EBA59] border-opacity-20 font-custom font-bold
+             transition duration-300 ease-in-out hover:bg-[#3EBA59] hover:bg-opacity-50 hover:border-opacity-100"
             >
               Login/Register
             </button>
@@ -212,11 +213,11 @@ const NavbarAll = () => {
         </div>
 
         {/* Navbar for Tablet and Desktop */}
-        <div className="hidden md:flex flex-col md:flex-row text-white justify-between px-5 sm:px-10 mt-24 pb-10 font-custom">
-          <NavLink to="/" className="font-bold leading-[28px] text-[22px] sm:text-[28px]">
-            Forexyy -Tradie
+        <div className="hidden md:flex flex-col md:flex-row text-white justify-between px-5 lg:px-10 mt-24 pb-10 font-custom">
+          <NavLink to="/" className="font-bold leading-[28px] text-[22px] lg:text-[38px] sm:text-[28px]">
+            Forexyy
           </NavLink>
-          <ul className="flex flex-wrap gap-[16px] sm:gap-[30px] mt-4 md:mt-0">
+          <ul className="flex flex-wrap gap-[16px] lg:gap-[30px] mt-4 md:mt-0">
             <NavLink
               to="/guidance"
               className={({ isActive }) =>
@@ -281,11 +282,11 @@ const NavbarAll = () => {
         </div>
 
         {/* Mobile Sidebar */}
-        <div className="md:hidden py-2">
-          <div className="flex items-center justify-between px-5 sm:px-10 pt-4 mb-3">
+        <div className="md:hidden py-4">
+          <div className="flex items-center justify-between px-5 sm:px-10 pt-4 -mb-[2px]">
             <NavLink to="/">
               <div className="font-bold leading-[28px] text-[22px] text-white sm:text-[28px] md:hidden block">
-                Forexyy -Tradie
+                Forexyy
               </div>
             </NavLink>
             {/* Hamburger Icon */}
@@ -297,7 +298,6 @@ const NavbarAll = () => {
               </button>
             </div>
           </div>
-
           <div
             className={`fixed top-0 left-0 w-3/4 h-full bg-[#212326] text-white px-4 py-7 transition-transform transform ${isOpen ? 'translate-x-0' : '-translate-x-full'
               } z-50`}
@@ -382,7 +382,8 @@ const NavbarAll = () => {
                   toggleSidebar(); // Close sidebar when button is clicked
                 }}
                 type="button"
-                className="py-4 px-4 text-[14px] text-white focus:outline-none rounded-[12px] border border-[#EF443B33] font-bold transition duration-300 ease-in-out hover:bg-[#EF443B] hover:bg-opacity-50"
+                className="py-4 px-4 sm:px-10 text-[14px] sm:text-[16px] text-white focus:outline-none rounded-[12px] border border-[#3EBA59] border-opacity-20 font-custom font-bold
+             transition duration-300 ease-in-out hover:bg-[#3EBA59] hover:bg-opacity-50 hover:border-opacity-100"
               >
                 Login/Register
               </button>

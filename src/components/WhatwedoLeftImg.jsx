@@ -34,7 +34,7 @@ const WhatwedoLeftImg = () => {
                     <p className="font-inter mb-4 text-[18px] font-normal leading-[28.8px] text-left mt-4 text-[#797979]">
                     Strategy Customization For Customize and create your own trading strategies using our intuitive tools. Backtest your strategies against historical data to refine and optimize them before putting them into action.
                     </p>
-                    <button type="button" className="py-4 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold">
+                    <button type="button" className="py-4 sm:py-4 px-9 sm:px-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold">
                     Learn More
                     </button>
                 </div>

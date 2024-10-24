@@ -30,15 +30,15 @@ const GuidanceMain = () => {
                   </p>
                 </div>
                 <div className="flex flex-col sm:flex-row justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4">
-                  <button className="bg-[#D91222] text-white px-4 py-3 sm:py-4 sm:px-8 rounded-full">
+                  <button className="bg-[#D91222] text-white px-4 py-3 sm:py-4 sm:px-10 rounded-full">
                     Try free trial
                   </button>
-                  <button className="flex items-center space-x-2 text-gray-600">
+                  {/* <button className="flex items-center space-x-2 text-gray-600">
                     <img src="Play.svg" alt="" className="w-4 h-4 sm:w-auto" />
                     <span className="text-[14px] sm:text-[16.26px] font-inter font-medium leading-[19.67px] text-left text-[#191A15]">
                       View Demo
                     </span>
-                  </button>
+                  </button> */}
                 </div>
               </div>
 

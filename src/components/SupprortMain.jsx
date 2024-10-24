@@ -23,7 +23,7 @@ const SupportMain = () => {
                             We Are Here To Solve Your Doubts
                         </h1>
                         <p className="font-medium mt-6 text-[16px] md:text-[20px] lg:text-[22px] leading-[24px] md:leading-[32px] text-center text-[#797979] mb-6" style={{ fontFamily: 'DM Sans' }}>
-                            The Forexyy -Tradie is the key to unlocking the full potential of Trading.
+                            The Forexyy is the key to unlocking the full potential of Trading.
                             <br /> Get even higher earning rates and our lowest borrowing rates.
                         </p>
                         <div className="flex flex-col sm:flex-row justify-center space-x-0 sm:space-x-4 mt-6">

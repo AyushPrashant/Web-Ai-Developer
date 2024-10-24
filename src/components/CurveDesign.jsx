@@ -1,11 +1,15 @@
 import React from 'react'
+import { useState } from 'react';
+import SignIn from './SignIn';
+import { NavLink } from 'react-router-dom';
 
 const CurveDesign = () => {
+  const [isModalOpen, setModalOpen] = useState(false);
   return (
     <>
       <div className='block lg:hidden'>
         <div className='font-custom mt-5 px-4 mb-2 sm:px-5 font-bold text-[24px] sm:text-[30px] lg:text-[34.68px] leading-[32px] sm:leading-[40px] lg:leading-[44.98px] text-[#212326]'>
-          How to <span className='text-[#D91222]'>Trade With</span> Forexyy -Tradie
+          How to <span className='text-[#D91222]'>Trade With</span> Forexyy
         </div>
 
         <img src="StepToTrade.svg" alt="" className='px-3' />
@@ -13,11 +17,11 @@ const CurveDesign = () => {
 
       <div className='mt-20 w-[545.37px] ml-[112px] h-[45px] hidden lg:block'>
         <div className='font-custom font-bold text-[34.68px] leading-[44.98px] text-[#212326]'>
-          How to <span className='text-[#D91222]'>Trade With</span> Forexyy -Tradie
+          How to <span className='text-[#D91222]'>Trade With</span> Forexyy
         </div>
       </div>
 
-      <div className='mt-10 ml-5 lg:mb-28'>
+      <div className='mt-10 ml-5 lg:mb-0'>
         <div className='relative hidden lg:block'>
           <img className='w-full' src="CurveBg.svg" alt="Curve Background" />
 
@@ -60,6 +64,26 @@ const CurveDesign = () => {
           </div>
         </div>
       </div>
+      <div className="flex pt-5 sm:pt-10 justify-center mt-5 sm:mt-7 lg:mb-20">
+            <div>
+              <button  onClick={() => setModalOpen(true)}
+                type="button"
+                className="py-3 sm:py-4 px-9 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105"
+              >
+                Get Started
+              </button>
+              <SignIn isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
+                
+              <NavLink to="/getstarted" onClick={() => window.scrollTo(0, 0)}>
+              <button
+                type="button"
+                className="py-4 sm:py-4 px-9 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#FFFFFF] bg-opacity-[4%] text-[#D91222] hover:text-white focus:outline-none rounded-[48px] border border-[#3EBA59] border-opacity-20 font-custom font-semibold transition duration-300 ease-in-out hover:bg-[#3eba59] hover:bg-opacity-50 hover:border-opacity-100"
+              >
+                Know more
+              </button>
+              </NavLink>
+            </div>
+          </div>
     </>
   )
 }

@@ -5,7 +5,7 @@ const SectionPage = () => {
         <div className='bg-[#F1F5F9] relative'>
             {/* Main heading */}
             <div className='pt-[100px] max-w-[940px] w-full mx-auto text-center font-manage font-bold text-[30px] sm:text-[42px] leading-[35px] sm:leading-[51.71px] px-6 sm:px-4'>
-                <span className='text-[#090922]'>Over 83,000 Forexyy  traders worldwide trust Forexyy -Tradie.com - </span>
+                <span className='text-[#090922]'>Over 83,000 Forexyy  traders worldwide trust Forexyy.com - </span>
                 <span className='text-[#D91222]'> now it's your turn</span>
             </div>
 
@@ -67,7 +67,7 @@ const SectionPage = () => {
                 <div className="box2 w-full md:w-[600px] mx-auto">
                     <div className='w-full h-[136px]'>
                         <div className='font-custom text-[#0F172A] font-bold text-[16px] sm:text-[20px] leading-[20px] tracking-[2px] sm:tracking-[3px] text-left mb-2'>
-                            GRASP THE MARKETS WITH Forexyy -TRADIE.COM
+                            GRASP THE MARKETS WITH Forexyy.COM
                         </div>
                         <div className='font-custom text-left font-extrabold text-[30px] sm:text-[45px] leading-[35px] sm:leading-[49.5px] text-[#0F172A]'>
                             Stay informed with market trends

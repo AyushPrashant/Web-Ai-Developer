@@ -28,7 +28,7 @@ const Overwhelmade = () => {
                             <div className='flex gap-2'>
                                 <img src="Right.svg" alt="" />
                                 <div className='font-custom font-normal text-[14px] md:text-[16px] lg:text-[18px] leading-[24px] md:leading-[26px] lg:leading-[28.8px] text-[#797979]'>
-                                    Suitable for new and advanced Forexyy  tradie
+                                    Suitable for new and advanced Forexyy
                                 </div>
                             </div>
                             <div className='flex gap-2'>

@@ -41,7 +41,7 @@ const Home = () => {
             Discover endless possibilities in the world
           </div>
           <span className="text-[#D91222] font-bold text-[40px] sm:text-[50px] lg:text-[60px] leading-[60px] sm:leading-[70px] lg:leading-[84px]">
-            of Trading.
+            of Trading
           </span>
         </div>
 
@@ -72,23 +72,23 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="flex pt-5 sm:pt-10 justify-center mt-5 sm:mt-7">
-            <div>
+          <div className="flex pt-5 sm:pt-10 justify-center items-center mt-5 sm:mt-7">
+            {/* <div> */}
               <button  onClick={() => setModalOpen(true)}
                 type="button"
-                className="py-3 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#D01222] text-white focus:outline-none rounded-[48px] border border-[#EF443B33] border-opacity-20 font-custom font-bold transition-transform duration-300 ease-in-out hover:bg-[#B10F1C] hover:scale-105"
+                className="py-4 sm:py-4 px-9 sm:px-10 text-[14px] sm:text-[16px] bg-[#FFFFFF] bg-opacity-[4%] text-white focus:outline-none rounded-[48px] border border-[#FF8811] border-opacity-20 font-custom font-bold hover:border-[#3EBA59] hover:shadow-sm hover:shadow-lime-50"
               >
                 Get Started
               </button>
               <SignIn isOpen={isModalOpen} onClose={() => setModalOpen(false)} />
 
-              <button
+              {/* <button
                 type="button"
                 className="py-4 sm:py-4 px-6 sm:px-10 me-2 mb-2 mr-4 sm:mr-10 text-[14px] sm:text-[16px] bg-[#FFFFFF] bg-opacity-[4%] text-white focus:outline-none rounded-[48px] border border-[#FF8811] border-opacity-20 font-custom font-bold"
               >
                 Try Demo
-              </button>
-            </div>
+              </button> */}
+            {/* </div> */}
           </div>
 
           <div className="font-Montserrat font-medium text-[10px] sm:text-[12px] leading-[14.63px] text-white text-opacity-[74%] mt-[90px] sm:mt-[110px] flex flex-col items-center">

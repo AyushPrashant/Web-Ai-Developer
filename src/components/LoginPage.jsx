@@ -38,7 +38,7 @@ const LoginPage = ({ isOpen, onClose }) => {
                 {/* Modal Header and Log In Button */}
                 <div className='flex mt-2 mb-[10px] md:mb-0 md:mt-4 justify-between'>
                     <h1 className="text-[24px] md:text-[28px] font-custom leading-[28px] font-bold text-[#190041]">
-                        Forexyy -Tradie
+                        Forexyy
                     </h1>
                     <div>
                         <button 
